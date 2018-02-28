@@ -38,6 +38,9 @@ header {
     background-color: #9b59b6;
 }
 
+.bg-color-contact-page {
+    background-color: #ffffff;
+}
 /*SPECIAL PADDINGS/MARGINS/FONTS*/
 
 h1,
@@ -84,6 +87,7 @@ h4 {
     margin-top: 25px;
     margin-bottom: 50px;
 }
+
 
 /*HEADING*/
 
@@ -221,6 +225,11 @@ hr {
     width: 60%;
 }
 
+.wrap-item {
+    white-space: pre-line;
+    display: inline-block;
+}
+
 /*FOOTER*/
 
 footer {
@@ -333,6 +342,31 @@ footer .cv-pdf i:hover {
     margin-bottom: 50px;
 }
 
+/*CONTACT*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    margin-top: 25px;
+    Margin-bottom: 50px;
+}
+
+.center-form {
+    padding: 10px 50px 0 50px;
+    margin-top: -30px;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #3498db;
+    color: #fafafa;
+}
+
+h2 .section-heading-right {
+    margin-bottom: 0;
+}
+
 /*MEDIA QUERIES*/
 
 @media(min-width: 992px) {
@@ -341,10 +375,18 @@ footer .cv-pdf i:hover {
         float: none;
         display: table-cell;
     }
-}
-
-@media(min-width: 992px) {
-    .progress-type {
+        .progress-type {
         margin-left: 50px;
     }
+       .center-form {
+        padding: 30px 50px 0 50px;
+        margin-top: -30px;
+    } 
+       .section-column-contact {
+        padding: 0 30px;
+        min-height: 361.2px;
+        float: left;
+        display: table-cell;
+    }
 }
+
